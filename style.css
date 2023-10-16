@@ -1,12 +1,30 @@
 #searchResults, #currentWeather {
     height:200px;
     border-radius: 15px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 0px;
+    padding: 20px;
   }
   
   #currentWeather {
     font-size: 20px;
     display: flex;
     margin: auto;
+    justify-content: space-between;
+    
+  }
+
+  body{
+    background-color: lightcyan
+  }
+
+  .card-body{
+    background-color: lightcyan;
+  }
+
+  .list-group-item {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: lightcyan;
   }
