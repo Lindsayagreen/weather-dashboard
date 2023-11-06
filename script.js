@@ -41,9 +41,9 @@ function getWeather(city) {
           data.weather[0].icon +
           '@2x.png">'
       );
-      currentWeather.append("<p>Temperature:" + data.main.temp + "</p>");
-      currentWeather.append("<p>Humidity: " + data.main.humidity + "</p>");
-      currentWeather.append("<p>Wind: " + data.wind.speed + "</p>");
+      currentWeather.append('<p class="styled-paragraph">Temperature: ' + data.main.temp + '</p>');
+      currentWeather.append('<p class="styled-paragraph">Humidity: ' + data.main.humidity + '</p>');
+      currentWeather.append('<p class="styled-paragraph">Wind: ' + data.wind.speed + '</p>');
       // var saveCityToLocalStorage = $('dataName')
       saveCityToLocalStorage(data.name);
     });

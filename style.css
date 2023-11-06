@@ -11,7 +11,16 @@
     display: flex;
     margin: auto;
     justify-content: space-between;
-    
+  }
+
+  .styled-paragraph {
+    font-size: 30px;
+    color: #333;
+    margin: 10px 0; /* Adjust the margin to add space */
+    padding: 10px 0; /* Adjust the padding to add space */
+    display: flex;
+    justify-content: space-around;
+
   }
 
   body{
@@ -25,6 +34,13 @@
   .list-group-item {
     font-size: 12px;
     font-weight: bold;
-    padding: 20px;
+    padding: 40px;
     background-color: lightcyan;
   }
+
+#btn {
+  color: black;
+  font-weight: bold;
+  background-color:white
+
+}
